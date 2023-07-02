@@ -1,0 +1,39 @@
+/*
+Theme name: wp bootstrap theme theme
+Theme URI:https://www.youtube.com
+Author:Jarry Ullah
+Description: This is a very awesome wp theme
+Author URI:https://www.google.com
+Version:1.0
+*/
+
+/* single product page */
+button.single_add_to_cart_button.button.alt {
+    background: rgb(3, 128, 170);
+    font-size: 14px;
+}
+/* products page */
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: rgb(3, 128, 170);
+    color: #fff;
+    font-size: 14px;
+}
+
+
+li.product.product-type-simple {
+    text-align: center;
+}
+/*cart page*/
+input#coupon_code {
+    width: 109px;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+   
+    color: #ffff;
+    background-color: skyblue;
+}
+/* new arrival changes */
+div.new-arrival-custom-class a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: rgb(4, 56, 73);
+}
