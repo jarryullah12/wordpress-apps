@@ -1,0 +1,142 @@
+/* Light theme */
+.store_locator.compact.light_theme {
+	background-color: white;
+	border: 1px solid lightgray;
+	color: black;
+}
+
+.store_locator.compact.light_theme .store_locator_caption {
+    background-color: #fff;
+    color: black;
+}
+
+.store_locator.compact.light_theme a,
+.store_locator.compact.light_theme a:visited {
+	color: #24890d;
+}
+
+.store_locator.compact.light_theme a:active {
+	color: dodgerblue;
+}
+
+.store_locator.compact.light_theme .store_locator_search_form_wrapper {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"],
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select option {
+	background-color: #fff;
+	border: 1px solid lightgray;
+	color: #000;
+}
+
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"]:focus,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"]:active,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select:focus,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select:active,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select option:focus,
+.store_locator.compact.light_theme .store_locator_search_form_wrapper .input_wrapper select option:active {
+	border: 1px solid lightblue;
+	box-shadow: 0px 0px 5px lightblue;
+}
+
+
+.store_locator.compact.light_theme .store_locator_wrapper .left_col .results_found_message {
+    background-color: lightyellow;
+}
+
+.store_locator.compact.light_theme .store_locator_wrapper .left_col .directions_link {
+	color: dodgerblue;
+}
+
+.store_locator.compact.light_theme .store_locator_wrapper .locations_search_results li::before {
+    background-color: green;	
+}
+
+.store_locator.compact.light_theme .store_locator_wrapper .locations_search_results li.current_item::before {
+    background-color: dodgerblue;
+}
+
+.store_locator.compact.light_theme .store_locator_wrapper .locations_search_results li.current_item > h3 {
+	color: dodgerblue;
+}
+
+
+/* Dark theme */
+.store_locator.compact.dark_theme {
+	background-color: white;
+	border: 1px solid #1a1a1a;
+	color: black;
+}
+
+.store_locator.compact.dark_theme .store_locator_caption {
+    background-color: #343434;
+    color: white;
+}
+
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper {
+    background-color: #343434;
+    border-bottom: 1px solid #1a1a1a;
+    color: white;	
+}
+
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper label {
+	color: #efefef;
+}
+
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"],
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select option {
+	background-color: #686868;
+	border: 1px solid #343434;
+	color: #efefef;
+}
+
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"]:focus,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper input[type="text"]:active,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select:focus,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select:active,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select option:focus,
+.store_locator.compact.dark_theme .store_locator_search_form_wrapper .input_wrapper select option:active {
+	border: 1px solid darkgray;
+}
+
+
+.store_locator.compact.dark_theme .submit_wrapper .btn {
+    background-color: #a1a1a1;
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .left_col {
+	background-color: #434343;
+	color: white;
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .left_col {
+	background-color: #434343;
+	color: white;
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .left_col .results_found_message {
+    background-color: #343434;
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .left_col .directions_link {
+	color: lightblue;
+}
+
+
+.store_locator.compact.dark_theme .store_locator_wrapper .locations_search_results li::before {
+    background-color: gray;	
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .locations_search_results li.current_item::before {
+    background-color: dodgerblue;
+}
+
+.store_locator.compact.dark_theme .store_locator_wrapper .locations_search_results li.current_item {
+    color: lightyellow;
+	background-color: transparent;
+}
+
